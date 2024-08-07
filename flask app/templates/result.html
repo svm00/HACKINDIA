@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cryptocurrency Trend Analyzer Result</title>
+  </head>
+  <body>
+    <h1>Cryptocurrency Trend Analyzer Result</h1>
+    {% for table in tables %}
+      {{ table | safe }}
+    {% endfor %}
+  </body>
+</html>

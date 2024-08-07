@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cryptocurrency Trend Analyzer</title>
+  </head>
+  <body>
+    <h1>Cryptocurrency Trend Analyzer</h1>
+    <form method="post">
+      <label for="crypto_id">Cryptocurrency ID:</label><br>
+      <input type="text" id="crypto_id" name="crypto_id"><br>
+      <label for="trend1">Trend 1:</label><br>
+      <select id="trend1" name="trend1">
+        <option value="">Select a trend</option>
+        <option value="moving_average">moving_average</option>
+      </select><br>
+      <label for="trend2">Trend 2:</label><br>
+      <select id="trend2" name="trend2">
+        <option value="">Select a trend</option>
+        <option value="daily_return">daily_return</option>
+        </select><br>
+      <label for="trend3">Trend 3:</label><br>
+      <select id="trend3" name="trend3">
+        <option value="">Select a trend</option>
+        <option value="exponential_moving_average">exponential_moving_average</option>
+        </select><br>
+      <input type="submit" value="Analyze">
+    </form>
+  </body>
+</html>
